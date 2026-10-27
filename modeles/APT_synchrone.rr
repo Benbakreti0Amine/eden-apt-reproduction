@@ -1,0 +1,8 @@
+variables:
+    A+: Amoeba proteus
+    P+: Paramecium caudatum
+    T+: Tetrahymena pyriformis
+
+rules:
+    [S1] A+, P+, T+ >> P-, T-
+    [S2] A+, P-, T- >> A-

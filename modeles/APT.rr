@@ -1,0 +1,12 @@
+# APT model - Figure 5
+
+variables:
+    A+: Amoeba proteus
+    P+: Paramecium caudatum
+    T+: Tetrahymena pyriformis
+
+rules:
+    [R1] A+ >> P-
+    [R2] A+ >> T-
+    [R3] P+ >> T-
+    [R4] P- >> A-
